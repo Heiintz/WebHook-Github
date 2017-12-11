@@ -1,17 +1,3 @@
-/*
-Navicat MySQL Data Transfer
-
-Source Server         : ASSURMIX PROD
-Source Server Version : 50543
-Source Host           : 127.0.0.1:3306
-Source Database       : assurmix
-
-Target Server Type    : MYSQL
-Target Server Version : 50543
-File Encoding         : 65001
-
-Date: 2017-12-11 13:47:11
-*/
 
 SET FOREIGN_KEY_CHECKS=0;
 
