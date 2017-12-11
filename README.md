@@ -2,34 +2,34 @@
 Script to retrieve events related to Github issues
 
 # Listing of events retrieved by the script
-
-   - Creating the issue
-   - Modification of the title and the description of the outcome
-   - Closing the issue
-   - Addition and modification of labels
-   - Adding comments
-   - Editing comments
-   - Commit related to the outcome
-  
-   # Set up
+  
+    - Creating the issue
+    - Edit title and description
+    - Closing the issue
+    - Add and edit labels
+    - Add comments
+    - Edit comments
+    - Comits related to the issue
+   
+   # Set up
+   
   SQL
   
   Execute the [SQL file](https://github.com/Heiintz/WebHook-Github/blob/master/webhook_comments.sql) to create the database structure.
   
   GitHub
 
-  
      - Go to the "Settings" tab of the repository
-    
-     - Click on "Webhooks" then on "Add webhook" (GitHub will ask for the password of your account)
-    
-     - Fill the Payload URL field => Put the URL of your WebHook.php file
-    
-     - Choose Content type => application / x-www-form-urlencoded
-    
-     - Choose a passphrase in SHA1
-    
-     - Then you have the opportunity to choose 3 radio: Basic with François we put "Send me everything" which corresponds to click on "Let me select individual event" and check everything
+     
+     - Click on "Webhooks" then on "Add webhook" (GitHub will ask for the password of your account) 
+     
+     - Fill the Payload URL field => Put the URL of your WebHook.php file
+    
+     - Chose Content type => application / x-www-form-urlencoded
+    
+     - Chose a passphrase in SHA1
+    
+     - Then you have the opportunity to choose 3 radio button : "Send me everything" which corresponds to click on "Let me select individual event" and check everything
 
 
 # Webhook (FR)
